@@ -8,6 +8,6 @@ func Update() string {
 	return "Ini adalah modul update pdf"
 }
 
-func Delete() string {
-	return "Ini adalah modul delete pdf"
+func Delete(name string) string {
+	return "Ini adalah modul delete pdf " + name
 }
