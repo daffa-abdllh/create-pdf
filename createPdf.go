@@ -1,5 +1,9 @@
 package create_pdf
 
-func Create() string {
-	return "Ini adalah modul membuat pdf browww"
+func Create(name string) string {
+	return "Ini adalah modul membuat pdf " + name
+}
+
+func Update() string {
+	return "Ini adalah modul update pdf"
 }
